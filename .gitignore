@@ -1,0 +1,63 @@
+# =============== #
+# Unity generated #
+# =============== #
+Temp/
+Obj/
+UnityGenerated/
+Library/
+Assets/AssetStoreTools*
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+ExportedObj/
+*.svd
+*.userprefs
+*.csproj
+*.pidb
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Assets/Rooms/
+ciruli/ProjectSettings/ProjectSettings.asset
+ciruli/ProjectSettings/ProjectVersion.txt
+ciruli/Assets/Images/Enemies/Thumbs.db.meta
+ciruli/Assets/Images/Victims/A/Clothes/Thumbs.db.meta
+ciruli/Assets/Images/Victims/A/Face/Thumbs.db.meta
+ciruli/Assets/Images/Victims/A/Hair/Thumbs.db.meta
+ciruli/Assets/Images/Victims/A/Objects/Thumbs.db.meta
+ciruli/Assets/Images/Victims/A/Thumbs.db.meta
+ciruli/Assets/Resources/Objects/Thumbs.db.meta
+ciruli/Assets/Resources/Victims/A/Clothes/Thumbs.db.meta
+ciruli/Assets/Resources/Victims/A/Hair/Thumbs.db.meta
+ciruli/Assets/Images/Victims/A/Body/Thumbs.db.meta
+ciruli/Assets/Resources/sound/Explosion.wav.meta
+ciruli/Assets/Resources/sound/Motor.wav.meta
+ciruli/Assets/Resources/sound/PowerUpItem.wav.meta
+ciruli/Assets/Resources/sound/PowerUpOff.wav.meta
+ciruli/Assets/Images/obstacles/Thumbs.db.meta
+ciruli/Assets/Images/powerups/Thumbs.db.meta
+ciruli/Assets/Images/fx/Thumbs.db.meta
+ciruli/Assets/Images/ui/warning/Thumbs.db.meta
+ciruli/Assets/Resources/sound/TMP726.tmp
+ciruli/Assets/Images/ui/gameOver.meta
+ciruli/Assets/Images/ui/levelSelection.meta
+ciruli/Assets/Images/ui/newDiploma.meta
+ciruli/Assets/Images/ui/settings.meta
+ciruli/Assets/Images/ui/splash.meta
+ciruli/Assets/Images/ui/summary.meta
+ciruli/Assets/Images/ui/confirm.meta
+ciruli/Assets/Images/ui/settings/Thumbs.db.meta
