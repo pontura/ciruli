@@ -5,7 +5,7 @@ using UnityEngine;
 public class Particles : MonoBehaviour {
 
 	public ParticleSystem myParticles;
-	private float speed = 10;
+	public float speed = 20;
 	private bool isFaster;
 	private ParticleSystem.MainModule module;
 
@@ -17,8 +17,8 @@ public class Particles : MonoBehaviour {
 	}
 	void Loop()
 	{
-		Invoke ("Loop", Random.Range (4, 20));
-		speed = Random.Range (8, 16);
+		Invoke ("Loop", Random.Range (3, 9));
+		speed = Random.Range (12, 35);
 		isFaster = !isFaster;
 	}
 	void Update()
@@ -28,9 +28,9 @@ public class Particles : MonoBehaviour {
 			ss += speed * (Time.deltaTime) / 100;
 		else
 			ss -= speed  * (Time.deltaTime) / 100;
-		if (ss > 0.5f && isFaster)
+		if (ss > 0.8f && isFaster)
 			return;
-		if (ss < 0.005f && !isFaster)
+		if (ss < 0.2f && !isFaster)
 			return;
 
 		module.simulationSpeed = ss;

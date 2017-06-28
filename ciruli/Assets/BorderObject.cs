@@ -10,6 +10,8 @@ public class BorderObject : MonoBehaviour {
 	public bool isLeft;
 	float speed = 0.01f;
 
+	public float G;
+
 	void Start () {
 		//sprites = GetComponentsInChildren<SpriteRenderer> ();
 	}
@@ -30,7 +32,7 @@ public class BorderObject : MonoBehaviour {
 			colorValue -= speed;
 		
 		foreach (SpriteRenderer sr in sprites) {
-			sr.color = new Color(colorValue, 0.7f, 0,colorValue);
+			sr.color = new Color(colorValue + 0.2f, G, 0,colorValue);
 		}
 	}
 }
